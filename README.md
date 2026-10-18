@@ -2,7 +2,8 @@
 
 Next.js App Router + TypeScript. Lecturas con Server Components, mutaciones con Server Actions, token en cookie httpOnly.
 
-[este es un proyecto de continuacion despues de aver creado nuestra api del siguiente repositor](https://github.com/italo0072/API-E-commerce-con-Swagger)
+este es un proyecto de continuacion despues de aver creado nuestra api del siguiente repositor
+[Proyecto de api](https://github.com/italo0072/API-E-commerce-con-Swagger)
 
 ## Ejecutar
 ```bash
