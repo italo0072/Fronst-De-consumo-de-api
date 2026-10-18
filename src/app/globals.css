@@ -1,0 +1,12 @@
+:root{--bg:#f7f5f0;--fg:#1d1d1b;--ac:#0f5c4d;--bd:#dcd8cd}
+@media(prefers-color-scheme:dark){:root{--bg:#141614;--fg:#eceae3;--ac:#4fc3a8;--bd:#333}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.5}
+a{color:inherit}header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.5rem;border-bottom:1px solid var(--bd)}
+header nav{display:flex;gap:1.25rem;align-items:center}main{max-width:1000px;margin:0 auto;padding:1.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.card{border:1px solid var(--bd);padding:1rem;border-radius:6px}.card img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:var(--bd)}
+.form{display:grid;gap:.75rem;max-width:360px}input{padding:.6rem;border:1px solid var(--bd);border-radius:4px;background:transparent;color:inherit}
+button{background:var(--ac);color:var(--bg);border:0;padding:.6rem 1rem;border-radius:4px;cursor:pointer;font:inherit}button:disabled{opacity:.5}
+button.ghost{background:transparent;color:inherit;border:1px solid var(--bd)}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.row{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.5rem 0;border-bottom:1px solid var(--bd)}
+.err{color:#c0392b}.muted{opacity:.7}
